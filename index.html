@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="sol.png" type="image/x-icon">
+    <title>Santi - Precisão do Tempo</title>
+</head>
+
+<body>
+    <div class="containerMaior">
+        <h2 class="cidade">Previsão com Santi</h2>
+        <input class="inputCidade" placeholder="Digite o nome da cidade">
+        <button class="botaoBuscar" onclick="clicarBuscar()" type="submit">
+            <img class="imgBuscar" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
+        </button>
+
+        <div class="containerMedia">   
+            <p class="tempo"></p>
+
+            <div class="containerMenor">
+                <img class="previsao"  height="30px">
+                <p class="previsaoTexto"></p>
+            </div>
+            <div class="error"></div>
+            <p class="umidade"></p>
+            
+        </div>
+
+
+        
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
