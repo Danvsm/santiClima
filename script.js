@@ -6,7 +6,7 @@ function dadosNaTela (dados) {
   document.querySelector(".previsaoTexto").innerHTML = dados.weather[0].description
   document.querySelector(".umidade").innerHTML = `Umidade: ${dados.main.humidity}%`
   document.querySelector(".previsao").src = `https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`
-  document.querySelector(".error").innerText = `Ops! Certifique-se de digitar apenas o nome da cidade sem estado ou país`
+  document.querySelector(".error").innerText = ``
   console.log(dados)
 }
 
